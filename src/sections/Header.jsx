@@ -53,6 +53,8 @@ const Header = () => {
             <nav className="max-lg:relative max-lg:z-2 max-lg:my-auto">
               <ul className="flex max-lg:block max-lg:px-12">
                 <li className="nav-li">
+                  <NavLink title="home" />
+                  <div className="dot" />
                   <NavLink title="features" />
                   <div className="dot" />
                   <NavLink title="pricing" />
@@ -77,6 +79,8 @@ const Header = () => {
                 </li>
                 <li className="nav-li">
                   <NavLink title="faq" />
+                  <div className="dot" />
+                  <NavLink title="testimonials" />
                   <div className="dot" />
                   <NavLink title="download" />
                 </li>
